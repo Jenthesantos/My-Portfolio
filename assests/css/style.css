@@ -9,6 +9,7 @@ header {
   
 }
 
+/*header*/
 h1{
   background-color: rgb(179, 206, 236);
   border-radius: 10px;
@@ -47,6 +48,13 @@ img {
   
 }
 
+/* banner */
+
+.hero-banner {
+  position: relative;
+  bottom: 200px;
+  left: 10px
+}
 
 body {
   margin: 0;
