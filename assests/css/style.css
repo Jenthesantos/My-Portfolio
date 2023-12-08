@@ -1,0 +1,72 @@
+:root {
+  --pink: rgb(109, 92, 92);
+}
+
+@media only screen and (max-width: 600px)
+
+header {
+  background-color: rgb(240, 203, 203);
+  
+}
+
+h1{
+  background-color: rgb(179, 206, 236);
+  border-radius: 10px;
+  width: 250px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 25px;
+  position: relative;
+  top: 10px
+}
+
+nav {
+  outline: solid 2px var(--pink);
+  font-size: 15px;
+  width: 580px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+a {
+  color: var(--pink);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  position: relative;
+  bottom: 150px;
+  width:600px;
+  z-index: -1;
+  
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: var(--pink);
+  line-height: 1.5;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
